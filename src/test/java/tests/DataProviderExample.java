@@ -1,7 +1,8 @@
+package tests;
 
 import org.testng.annotations.Test;
 
-public class DataProviderExample {
+public class DataProviderExample extends AbstractBaseTest {
 
 
     @Test(dataProvider = "LoginDataProvider", dataProviderClass=CustomDataProvider.class)
